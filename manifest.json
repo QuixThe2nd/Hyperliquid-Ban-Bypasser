@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Hyperliquid Ban Bypasser",
+	"version": "1.0",
+	"description": "Automatically bypasses Hyperliquid bans, region restrictions and TOS checks.",
+	"homepage_url": "https://github.com/QuixThe2nd/Hyperliquid-Ban-Bypasser",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "parsa@yazdani.au",
+			"strict_min_version": "54.0"
+		}
+	},
+	"background": {
+		"scripts": ["index.js"]
+	},
+	"permissions": ["webRequest", "webRequestBlocking", "tabs", "<all_urls>"]
+}
